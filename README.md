@@ -1,2 +1,2 @@
 # Automata.jl
-A julia package to play with Cellular Automata
+A julia package to play with Cellular Automata.
