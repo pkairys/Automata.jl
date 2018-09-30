@@ -1,3 +1,0 @@
-from julia_env_base:latest
-
-RUN julia -e "Pkg.add('Automata.jl')"
