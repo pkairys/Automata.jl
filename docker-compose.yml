@@ -10,5 +10,5 @@ services:
     ports:
       - 9000:9000
     environment:
-      - PATH=${PATH}:/root/.julia/v0.6/Conda/deps/usr/bin/
+      - PATH=${PATH}:/usr/local/julia/bin/
       - SHELL=/bin/bash
