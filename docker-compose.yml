@@ -5,7 +5,7 @@ services:
     image: automata_jl:latest
     command: "bash -c 'jupyter lab --no-browser --ip=* --port=9000 --allow-root --notebook-dir=/home --NotebookApp.token=\"\"'"
     volumes:
-      - ./:/home
+      - ./:/home/Automata.jl/
       - /var/run/docker.sock:/var/run/docker.sock 
     ports:
       - 9000:9000
