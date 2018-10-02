@@ -1,6 +1,7 @@
-authors = ["Unknown "]
 name = "Automata"
 uuid = "6b1adca0-c4cb-11e8-2e3f-d37fc360869d"
+authors = ["Unknown "]
 version = "0.1.0"
 
 [deps]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
